@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#menu{
+    background-color:#0D0D0D;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 0;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu ul li a:hover {
+    background-color:#5D6073;
+}
+
+#logo{
+    display: inline;
+    padding: 20px;
+    width: 780px;
+    border-radius: 30px;
+    align-items: center;
+}
+
+#titulo {
+    font-family: 'Playfair Display', serif;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+#texto {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 35px;
+    padding-bottom: 5px;
+    align-items: center;
+    
+}
+
+#textosingular {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 35px;
+    padding-top: 0px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#estilocontato {
+    font-family: 'Nunito', sans-serif;
+    display: inline;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 110px;
+}
+
+#fotoinsta > img {
+    max-width: 350px;
+    border-radius: 200px;
+    align-items: center;
+    display: inline;
+    padding: 50px;
+    }
+
+#fotoproduto {
+    max-width: 400px;
+    border-radius: 0 px;
+    align-items: center;
+    display: inline;
+    padding: 10px;
+}
+
+#textocurto {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 0px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+div{
+    display: inline-table;
+}
+
+#textotabela{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    padding: 6px;
+    align-items: center;
+}
+legend {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+fieldset div{
+    margin-bottom: 8px;
+}
+
+fieldset {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 12px;
+    border-color: #E9EFFF;
+}
+fieldset div input{
+    font-family: 'Nunito', sans-serif;
+    height: 24px;
+    border-radius: 4px;
+    padding:0 8px;
+    text-align: left;
+    border-color: #9092A7;
+}
+label {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    align-items: center;
+}
+#botao input {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#botao input:first-child {
+    background-color: #A8AABC;
+    margin-right: 8px;
+}
+#botao input:last-child {
+    background-color: #5D6073;
+}

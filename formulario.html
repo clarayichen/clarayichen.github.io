@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiore</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <nav id="menu"> 
+    <ul>
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+
+        <li>
+            <a href="produtos.html">Produtos</a>
+        </li>
+
+        <li>
+            <a href="sobre.html">Sobre nós</a>
+        </li>
+
+        <li>
+            <a href="contato.html">Contatos</a>
+        </li>
+
+        <li>
+            <a href="formulario.html">Dados</a>
+        </li>
+
+    </ul> 
+    </nav>
+
+    <form action="https://teste-reusetech.000webhostapp.com/prova5.php" method="get">
+        
+        <fieldset> 
+            
+			<legend>Dados Pessoais</legend>
+            
+            <div>
+			<label for="nc">Nome Completo:</label>
+			<input type="text" name="nomecompleto" id="nc">
+            </div>
+
+			<br>
+            <div>
+			<label for="datanasc">Data de nascimento:</label>
+			<input type="date" name="datanasc" id="datanasc">
+            </div>
+
+            <br>
+
+            <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+            </div>
+
+            <br>
+
+            <div>
+            <label for=tel> Telefone Celular: </label> <input type="number" name="tel" id="tel">
+            </div>
+            <br>
+
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="mas"> <label>Masculino</label>
+            <input type="radio" name="sexo" value="fem"> <label>Feminino</label>
+            <input type="radio" name="sexo" value="outro"> <label>Outro</label>
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+
+            <div>
+            <label for="estado">Estado:</label>
+            <input type="text" name="estado" id="estado">
+            </div>
+
+            <br>
+            <div>
+            <label for="cid">Cidade:</label>
+            <input type="text" name="cidade" id="cid">
+            </div>
+
+            <br>
+            <div>
+            <label for="bairro">Bairro:</label>
+            <input type="text" name="bairro" id="bairro">
+            </div>
+
+            <br>
+            <div>
+            <label for="nrua">Nome da Rua::</label>
+            <input type="text" name="nrua" id="nrua">
+            </div>
+
+            <br>
+            <div>
+            <label for="num">Numero:</label>
+            <input type="number" name="numero" id="num">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Orçamento</legend>
+
+            <div>
+            <label for=prof>Nome do Produto:</label>
+            <input type="text" name="prod" id="prod">
+            </div>
+
+            <br>
+
+            <div>
+            <label for=quant>Quantidade de Produtos:</label>
+            <input type="number" name="quant" id="quant">
+            </div>
+
+            <br>
+
+            <div>
+            <label for=preco>Preço Visto no Site:</label>
+            <input type="number" step="any" name="preco" id="preco">
+            </div>
+
+            <br>
+
+            <label>Forma de Pagamento:</label>
+            <input type="radio" name="paga" value="dinheiro"> <label>Dinheiro</label>
+            <input type="radio" name="paga" value="cartaoc"> <label>Cartão de Crédito</label>
+            <br>
+            <input type="radio" name="paga" value="cartaod"> <label>Cartão de Débito</label>
+            <input type="radio" name="paga" value="pix"> <label>PIX</label>
+
+            <br>
+            
+            <div>
+            <label for=desc>Porcentagem de Desconto:</label>
+            <input type="text" name="desc" id="desc">
+            </div>
+
+        </fieldset>
+        <br>
+
+        <div id="botao">
+        <input type="submit" name="enviar" value="Enviar">
+        <input type="reset" value="Apagar dados do formulário">
+        </div>
+        
+    </form>
+
+    </body>
+    </html>
